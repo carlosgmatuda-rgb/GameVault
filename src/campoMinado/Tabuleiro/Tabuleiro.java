@@ -3,12 +3,12 @@ package campoMinado.Tabuleiro;
 public class Tabuleiro {
     private int linhas;
     private int coluna;
-    private Peca[][] peca;
+    private PersonagemModel[][] peca;
 
-    public Tabuleiro(int linhas, int coluna, Peca[][] peca) {
+    public Tabuleiro(int linhas, int coluna, PersonagemModel[][] peca) {
         this.linhas = linhas;
         this.coluna = coluna;
-        this.peca = new Peca[linhas][coluna];
+        this.peca = new PersonagemModel[linhas][coluna];
     }
 
     public int getLinhas() {
@@ -27,11 +27,11 @@ public class Tabuleiro {
         this.coluna = coluna;
     }
 
-    public Peca[][] getPeca() {
+    public PersonagemModel[][] getPeca() {
         return peca;
     }
 
-    public void setPeca(Peca[][] peca) {
+    public void setPeca(PersonagemModel[][] peca) {
         this.peca = peca;
     }
 }

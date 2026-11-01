@@ -1,10 +1,10 @@
 package campoMinado.Tabuleiro;
 
-public class Peca {
+public class PersonagemModel {
     protected Posicao posicao;
     private Tabuleiro tabuleiro;
 
-    public Peca(Posicao posicao, Tabuleiro tabuleiro) {
+    public PersonagemModel(Posicao posicao, Tabuleiro tabuleiro) {
         this.posicao = posicao;
         this.tabuleiro = tabuleiro;
     }
