@@ -4,9 +4,12 @@ public class PersonagemModel {
     protected Posicao posicao;
     private Tabuleiro tabuleiro;
 
-    public PersonagemModel(Posicao posicao, Tabuleiro tabuleiro) {
-        this.posicao = posicao;
+    public PersonagemModel(Tabuleiro tabuleiro) {
+        this.posicao = null;
         this.tabuleiro = tabuleiro;
+    }
+
+    public PersonagemModel() {
     }
 
     public Tabuleiro getTabuleiro() {
