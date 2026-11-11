@@ -1,8 +1,8 @@
 package campoMinado.Tabuleiro;
 
 public class Posicao {
-    private int linha;
-    private int coluna;
+    int linha;
+    int coluna;
 
     public Posicao(int linha, int coluna) {
         this.linha = linha;
@@ -23,15 +23,5 @@ public class Posicao {
 
     public void setColuna(int coluna) {
         this.coluna = coluna;
-    }
-
-    public void setValues(int linha, int coluna) {
-        this.linha = linha;
-        this.coluna = coluna;
-    }
-
-    @Override
-    public String toString() {
-        return linha + ", " + coluna;
     }
 }
